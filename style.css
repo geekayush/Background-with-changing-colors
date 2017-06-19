@@ -1,0 +1,61 @@
+@keyframes color-change {
+    0%,
+    100% {
+        background-color: #99b433;
+    }
+    6.25% {
+        background-color: #00a300;
+    }
+    12.50% {
+        background-color: #1e7145;
+    }
+    18.75% {
+        background-color: #ff0097;
+    }
+    25% {
+        background-color: #9f00a7;
+    }
+    31.25% {
+        background-color: #7e3878;
+    }
+    37.50% {
+        background-color: #603cba;
+    }
+    43.75% {
+        background-color: #333333;
+    }
+    50% {
+        background-color: #00aba9;
+    }
+    56.25% {
+        background-color: #eff4ff;
+    }
+    62.50% {
+        background-color: #2d89ef;
+    }
+    68.75% {
+        background-color: #2b5797;
+    }
+    75% {
+        background-color: #ffc40d;
+    }
+    81.25% {
+        background-color: #e3a21a;
+    }
+    87.50% {
+        background-color: #da532c;
+    }
+    93.75% {
+        background-color: #b91d47;
+    }
+}
+
+body {
+    width: 100%;
+    animation-name: color-change;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    height: 10em;
+}
