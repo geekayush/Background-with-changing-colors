@@ -57,5 +57,6 @@ body {
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
+    overflow: hidden;
     height: 10em;
 }
